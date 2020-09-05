@@ -1,4 +1,5 @@
 import React from 'react'
+import { JournalEntries } from './JournalEntries'
 
 export const Sidebar = () => {
     return (
@@ -6,7 +7,7 @@ export const Sidebar = () => {
             <div className="journal__sidebar-navbar">
                 <h3 className="mt-3 text-white">
                     <i className="far fa-moon"/>
-                    <span>  Mi magui</span>
+                    <span> HOLA</span>
                 </h3>
 
                 <button className="btn">
@@ -17,6 +18,8 @@ export const Sidebar = () => {
                 <i className="far fa-calendar-plus fa-5x"/>
                 <p className="mt-2">New entry</p>
             </div>
+
+            <JournalEntries/>
         </aside>
     )
 }
